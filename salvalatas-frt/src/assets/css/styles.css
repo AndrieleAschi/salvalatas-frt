@@ -1,0 +1,82 @@
+html {
+    height: 100%;
+}
+
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, textarea, p, blockquote, th, td {
+    font-family: 'Sarabun', sans-serif; 
+    margin: 0px;
+    padding: 0px;
+  }
+
+  h1 {
+    font-size: 30px !important;   
+    font-family: 'Sarabun', sans-serif;
+    color: #666;
+    margin-bottom: 5px;
+    line-height: 20px;
+    text-transform: none;
+    font-weight: bold !important;
+  }
+  
+  h2 {
+    font-family: 'Sarabun', sans-serif;
+    font-size: 18px !important;   
+    color: #146E37;
+    margin-bottom: 8px;
+    font-weight: 400;
+    text-align: left;
+  }
+
+  h3 {
+    font-size: 18px !important;
+    white-space: nowrap;
+    margin-bottom: 5px;
+  }
+  
+  ul.invisivel {
+    list-style: none;
+  }
+  
+  body {
+    min-height: 100%;
+    font-family: 'Sarabun', sans-serif;
+    line-height: 1em;
+    position: relative;
+  }
+  
+  strong {
+    font-family: 'Sarabun', sans-serif;
+  }
+
+  p {
+    margin: 10px 0;
+    font-family: 'Sarabun', sans-serif;
+  }
+
+  .center {
+    text-align: center;
+  }
+  
+  .container {
+    width: 94%;
+    padding: 0 15px;
+    margin: 0 auto;
+    min-width: 100%;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+  
+  .row.space {
+      height: 30px;
+      display: block;
+  }
+
+ 
+  h4, .h4 {
+    font-size: 18px;
+  }
+
+  .none {
+    display: none;
+  }
+/********************/
