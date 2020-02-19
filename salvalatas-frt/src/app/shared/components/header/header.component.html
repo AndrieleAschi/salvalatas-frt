@@ -1,10 +1,10 @@
-<div class="header">
-  <div class="col-md-2">
+<div class="header d-flex align-items-center">
+  <div class="col-2 col-md-3 logo">
     <a [routerLink]="['/home']" routerLinkActive="router-link-active" >
-      <img src="../../../../assets/img/logo1.png" alt="Salva Latas">
+      <img src="../../../../assets/img/logo3.png" alt="Salva Latas">
     </a>
   </div>
-  <div class="col-md-8 menu">
+  <div class="col-8 col-md-6 menu">
     <ul>
       <li [routerLink]="['/quem-somos']" routerLinkActive="router-link-active" >Quem Somos</li>
       <li [routerLink]="['/adote']" routerLinkActive="router-link-active" >Adote</li>
@@ -13,13 +13,17 @@
       <li [routerLink]="['/contato']" routerLinkActive="router-link-active" >Contato</li>
     </ul>
   </div>
-  <div class="col-md-2">
-    <div class="redes-sociais">
-      <div class="instagram">
-        <i class="fa fa-facebook-square" aria-hidden="true"></i>
+  <div class="col-2 col-md-3">
+    <div class="redes-sociais d-flex flex-nowrap">
+      <div class="instagram col-2">
+        <a href="" target="_blank">
+          <i class="fa fa-instagram" aria-hidden="true"></i>
+        </a>
       </div>
-      <div class="facebook">
-        <i class="fa fa-instagram" aria-hidden="true"></i>
+      <div class="facebook col-2">
+        <a href="" target="_blank">
+          <i class="fa fa-facebook-square" aria-hidden="true"></i>
+        </a>
       </div>
     </div>
   </div>

@@ -10,6 +10,8 @@ import { QuemSomosComponent } from './quem-somos/quem-somos.component';
 import { ResgateComponent } from './resgate/resgate.component';
 import { HeaderComponent } from './shared/components/header/header.component';
 import { NotFoundComponent } from './shared/components/not-found/not-found.component';
+import { DoeComponent } from './doe/doe.component';
+import { ContatoComponent } from './contato/contato.component';
 
 @NgModule({
   declarations: [
@@ -21,6 +23,8 @@ import { NotFoundComponent } from './shared/components/not-found/not-found.compo
     ResgateComponent,
     HeaderComponent,
     NotFoundComponent,
+    DoeComponent,
+    ContatoComponent,
   ],
   imports: [
     BrowserModule,

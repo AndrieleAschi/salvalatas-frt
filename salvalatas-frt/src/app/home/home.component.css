@@ -1,0 +1,25 @@
+.banner img {
+    height: auto;
+    width: 100%;
+}
+
+.filtro-filhotes button {
+    color: white;
+    padding: 20px 50px;
+    background: #ce8567;
+    border: 1px solid #ce8567;
+    border-radius: 12px;
+    margin: 10px;
+    font-size: 25px;
+    font-weight: bold;
+    width: 300px;
+}
+
+.filtro-filhotes button:hover {
+  background-color: #ca7856;
+  border-color: #ca7856;
+}
+
+.filtro-filhotes {
+    margin: 25px 0;
+}

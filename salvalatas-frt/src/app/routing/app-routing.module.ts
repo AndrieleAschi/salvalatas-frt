@@ -6,6 +6,8 @@ import { NotFoundComponent } from '../shared/components/not-found/not-found.comp
 import { ResgateComponent } from '../resgate/resgate.component';
 import { AdoteComponent } from '../adote/adote.component';
 import { QuemSomosComponent } from '../quem-somos/quem-somos.component';
+import { DoeComponent } from '../doe/doe.component';
+import { ContatoComponent } from '../contato/contato.component';
 
 
 const routes: Routes = [
@@ -18,6 +20,8 @@ const routes: Routes = [
   { path: 'resgate', component: ResgateComponent },
   { path: 'adote', component: AdoteComponent },
   { path: 'quem-somos', component: QuemSomosComponent },
+  { path: 'doe', component: DoeComponent },
+  { path: 'contato', component: ContatoComponent },
   { path: '**', component: NotFoundComponent }
 ];
 

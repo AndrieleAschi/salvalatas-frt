@@ -1,0 +1,21 @@
+button {
+    color: white;
+    padding: 15px 30px;
+    background: #ce8567;
+    border: 1px solid #ce8567;
+    border-radius: 12px;
+    margin: 10px 10px 50px 10px;
+    font-size: 18px;
+    font-weight: bold;
+    width: 200px;
+    text-transform: uppercase;
+}
+
+button:hover {
+  background-color: #ca7856;
+  border-color: #ca7856;
+}
+
+.content {
+  margin: 50px 0 0 0;
+}
